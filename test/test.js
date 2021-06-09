@@ -6,7 +6,7 @@ describe("Sum to one", function() {
       it('data should return true if integers is single digit.', async function(){
             let data = SumToOne(35);
             /* Check and expected data.status is equal to true */
-            expect(data).to.equal(8);
+            expect(data).to.equal(10);
       });
 });
 function SumToOne(num) {
